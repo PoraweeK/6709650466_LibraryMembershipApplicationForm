@@ -1,0 +1,43 @@
+*{
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mitr", sans-serif;
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 300;
+}
+form{
+    max-width: 700px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px;
+}
+button{
+    font-size: 18px;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 7px 4px;
+    border-radius: 5px;
+    background-color: crimson;
+}
+button:hover{
+    color:white;
+}
+.title{
+    font-weight: 300;
+    margin: 0%;
+}
+h1{
+    font-weight: 400;
+}
